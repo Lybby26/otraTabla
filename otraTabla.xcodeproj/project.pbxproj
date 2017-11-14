@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A3A9B711FBA8C5E009CF2AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A9B701FBA8C5E009CF2AF /* AppDelegate.m */; };
+		9A3A9B741FBA8C5E009CF2AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A9B731FBA8C5E009CF2AF /* ViewController.m */; };
+		9A3A9B771FBA8C5E009CF2AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B751FBA8C5E009CF2AF /* Main.storyboard */; };
+		9A3A9B7A1FBA8C5E009CF2AF /* otraTabla.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A9B781FBA8C5E009CF2AF /* otraTabla.xcdatamodeld */; };
+		9A3A9B7C1FBA8C5E009CF2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B7B1FBA8C5E009CF2AF /* Assets.xcassets */; };
+		9A3A9B7F1FBA8C5E009CF2AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B7D1FBA8C5E009CF2AF /* LaunchScreen.storyboard */; };
+		9A3A9B821FBA8C5E009CF2AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A9B811FBA8C5E009CF2AF /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A3A9B6C1FBA8C5E009CF2AF /* otraTabla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otraTabla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3A9B6F1FBA8C5E009CF2AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A3A9B701FBA8C5E009CF2AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A3A9B721FBA8C5E009CF2AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A3A9B731FBA8C5E009CF2AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A3A9B761FBA8C5E009CF2AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A3A9B791FBA8C5E009CF2AF /* otraTabla.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = otraTabla.xcdatamodel; sourceTree = "<group>"; };
+		9A3A9B7B1FBA8C5E009CF2AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A3A9B7E1FBA8C5E009CF2AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A3A9B801FBA8C5E009CF2AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3A9B811FBA8C5E009CF2AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A3A9B691FBA8C5E009CF2AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A3A9B631FBA8C5E009CF2AF = {
+			isa = PBXGroup;
+			children = (
+				9A3A9B6E1FBA8C5E009CF2AF /* otraTabla */,
+				9A3A9B6D1FBA8C5E009CF2AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A3A9B6D1FBA8C5E009CF2AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A9B6C1FBA8C5E009CF2AF /* otraTabla.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A3A9B6E1FBA8C5E009CF2AF /* otraTabla */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A9B6F1FBA8C5E009CF2AF /* AppDelegate.h */,
+				9A3A9B701FBA8C5E009CF2AF /* AppDelegate.m */,
+				9A3A9B721FBA8C5E009CF2AF /* ViewController.h */,
+				9A3A9B731FBA8C5E009CF2AF /* ViewController.m */,
+				9A3A9B751FBA8C5E009CF2AF /* Main.storyboard */,
+				9A3A9B7B1FBA8C5E009CF2AF /* Assets.xcassets */,
+				9A3A9B7D1FBA8C5E009CF2AF /* LaunchScreen.storyboard */,
+				9A3A9B801FBA8C5E009CF2AF /* Info.plist */,
+				9A3A9B811FBA8C5E009CF2AF /* main.m */,
+				9A3A9B781FBA8C5E009CF2AF /* otraTabla.xcdatamodeld */,
+			);
+			path = otraTabla;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A3A9B6B1FBA8C5E009CF2AF /* otraTabla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3A9B851FBA8C5E009CF2AF /* Build configuration list for PBXNativeTarget "otraTabla" */;
+			buildPhases = (
+				9A3A9B681FBA8C5E009CF2AF /* Sources */,
+				9A3A9B691FBA8C5E009CF2AF /* Frameworks */,
+				9A3A9B6A1FBA8C5E009CF2AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = otraTabla;
+			productName = otraTabla;
+			productReference = 9A3A9B6C1FBA8C5E009CF2AF /* otraTabla.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A3A9B641FBA8C5E009CF2AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = lybby26;
+				TargetAttributes = {
+					9A3A9B6B1FBA8C5E009CF2AF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9A3A9B671FBA8C5E009CF2AF /* Build configuration list for PBXProject "otraTabla" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A3A9B631FBA8C5E009CF2AF;
+			productRefGroup = 9A3A9B6D1FBA8C5E009CF2AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A3A9B6B1FBA8C5E009CF2AF /* otraTabla */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A3A9B6A1FBA8C5E009CF2AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3A9B7F1FBA8C5E009CF2AF /* LaunchScreen.storyboard in Resources */,
+				9A3A9B7C1FBA8C5E009CF2AF /* Assets.xcassets in Resources */,
+				9A3A9B771FBA8C5E009CF2AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A3A9B681FBA8C5E009CF2AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3A9B7A1FBA8C5E009CF2AF /* otraTabla.xcdatamodeld in Sources */,
+				9A3A9B741FBA8C5E009CF2AF /* ViewController.m in Sources */,
+				9A3A9B821FBA8C5E009CF2AF /* main.m in Sources */,
+				9A3A9B711FBA8C5E009CF2AF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A3A9B751FBA8C5E009CF2AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3A9B761FBA8C5E009CF2AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A3A9B7D1FBA8C5E009CF2AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3A9B7E1FBA8C5E009CF2AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A3A9B831FBA8C5E009CF2AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A3A9B841FBA8C5E009CF2AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A3A9B861FBA8C5E009CF2AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = otraTabla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lybby26.otraTabla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A3A9B871FBA8C5E009CF2AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = otraTabla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lybby26.otraTabla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A3A9B671FBA8C5E009CF2AF /* Build configuration list for PBXProject "otraTabla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3A9B831FBA8C5E009CF2AF /* Debug */,
+				9A3A9B841FBA8C5E009CF2AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3A9B851FBA8C5E009CF2AF /* Build configuration list for PBXNativeTarget "otraTabla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3A9B861FBA8C5E009CF2AF /* Debug */,
+				9A3A9B871FBA8C5E009CF2AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A3A9B781FBA8C5E009CF2AF /* otraTabla.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A3A9B791FBA8C5E009CF2AF /* otraTabla.xcdatamodel */,
+			);
+			currentVersion = 9A3A9B791FBA8C5E009CF2AF /* otraTabla.xcdatamodel */;
+			path = otraTabla.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9A3A9B641FBA8C5E009CF2AF /* Project object */;
+}

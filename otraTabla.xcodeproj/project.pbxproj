@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9A3A9B711FBA8C5E009CF2AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A9B701FBA8C5E009CF2AF /* AppDelegate.m */; };
-		9A3A9B741FBA8C5E009CF2AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A9B731FBA8C5E009CF2AF /* ViewController.m */; };
+		9A3A9B741FBA8C5E009CF2AF /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A9B731FBA8C5E009CF2AF /* Home.m */; };
 		9A3A9B771FBA8C5E009CF2AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B751FBA8C5E009CF2AF /* Main.storyboard */; };
 		9A3A9B7A1FBA8C5E009CF2AF /* otraTabla.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A9B781FBA8C5E009CF2AF /* otraTabla.xcdatamodeld */; };
 		9A3A9B7C1FBA8C5E009CF2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B7B1FBA8C5E009CF2AF /* Assets.xcassets */; };
@@ -20,8 +20,8 @@
 		9A3A9B6C1FBA8C5E009CF2AF /* otraTabla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otraTabla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3A9B6F1FBA8C5E009CF2AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A3A9B701FBA8C5E009CF2AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A3A9B721FBA8C5E009CF2AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9A3A9B731FBA8C5E009CF2AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A3A9B721FBA8C5E009CF2AF /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		9A3A9B731FBA8C5E009CF2AF /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		9A3A9B761FBA8C5E009CF2AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A3A9B791FBA8C5E009CF2AF /* otraTabla.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = otraTabla.xcdatamodel; sourceTree = "<group>"; };
 		9A3A9B7B1FBA8C5E009CF2AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		9A3A9B6E1FBA8C5E009CF2AF /* otraTabla */ = {
 			isa = PBXGroup;
 			children = (
-				9A3A9B6F1FBA8C5E009CF2AF /* AppDelegate.h */,
-				9A3A9B701FBA8C5E009CF2AF /* AppDelegate.m */,
-				9A3A9B721FBA8C5E009CF2AF /* ViewController.h */,
-				9A3A9B731FBA8C5E009CF2AF /* ViewController.m */,
+				9A3A9B8A1FBA8C9A009CF2AF /* Main */,
+				9A3A9B891FBA8C92009CF2AF /* Controllers */,
 				9A3A9B751FBA8C5E009CF2AF /* Main.storyboard */,
 				9A3A9B7B1FBA8C5E009CF2AF /* Assets.xcassets */,
 				9A3A9B7D1FBA8C5E009CF2AF /* LaunchScreen.storyboard */,
@@ -72,6 +70,24 @@
 				9A3A9B781FBA8C5E009CF2AF /* otraTabla.xcdatamodeld */,
 			);
 			path = otraTabla;
+			sourceTree = "<group>";
+		};
+		9A3A9B891FBA8C92009CF2AF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A9B721FBA8C5E009CF2AF /* Home.h */,
+				9A3A9B731FBA8C5E009CF2AF /* Home.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A3A9B8A1FBA8C9A009CF2AF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A9B6F1FBA8C5E009CF2AF /* AppDelegate.h */,
+				9A3A9B701FBA8C5E009CF2AF /* AppDelegate.m */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A3A9B7A1FBA8C5E009CF2AF /* otraTabla.xcdatamodeld in Sources */,
-				9A3A9B741FBA8C5E009CF2AF /* ViewController.m in Sources */,
+				9A3A9B741FBA8C5E009CF2AF /* Home.m in Sources */,
 				9A3A9B821FBA8C5E009CF2AF /* main.m in Sources */,
 				9A3A9B711FBA8C5E009CF2AF /* AppDelegate.m in Sources */,
 			);

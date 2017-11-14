@@ -14,6 +14,16 @@
 		9A3A9B7C1FBA8C5E009CF2AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B7B1FBA8C5E009CF2AF /* Assets.xcassets */; };
 		9A3A9B7F1FBA8C5E009CF2AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B7D1FBA8C5E009CF2AF /* LaunchScreen.storyboard */; };
 		9A3A9B821FBA8C5E009CF2AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A9B811FBA8C5E009CF2AF /* main.m */; };
+		9A3A9B8F1FBA92F9009CF2AF /* cellMainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A9B8D1FBA92F9009CF2AF /* cellMainTable.m */; };
+		9A3A9B901FBA92F9009CF2AF /* cellMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B8E1FBA92F9009CF2AF /* cellMainTable.xib */; };
+		9A3A9B9A1FBA971A009CF2AF /* zapAzul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B921FBA971A009CF2AF /* zapAzul.jpg */; };
+		9A3A9B9B1FBA971A009CF2AF /* zapblanco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B931FBA971A009CF2AF /* zapblanco.jpg */; };
+		9A3A9B9C1FBA971A009CF2AF /* zapdorado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B941FBA971A009CF2AF /* zapdorado.jpg */; };
+		9A3A9B9D1FBA971A009CF2AF /* zapExcentrico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B951FBA971A009CF2AF /* zapExcentrico.jpg */; };
+		9A3A9B9E1FBA971A009CF2AF /* zapNegro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B961FBA971A009CF2AF /* zapNegro.jpg */; };
+		9A3A9B9F1FBA971A009CF2AF /* zapRojo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B971FBA971A009CF2AF /* zapRojo.jpg */; };
+		9A3A9BA01FBA971A009CF2AF /* zapRosa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B981FBA971A009CF2AF /* zapRosa.jpg */; };
+		9A3A9BA11FBA971A009CF2AF /* ZapRosaBlanco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B991FBA971A009CF2AF /* ZapRosaBlanco.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +38,17 @@
 		9A3A9B7E1FBA8C5E009CF2AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A3A9B801FBA8C5E009CF2AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A3A9B811FBA8C5E009CF2AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A3A9B8C1FBA92F9009CF2AF /* cellMainTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cellMainTable.h; sourceTree = "<group>"; };
+		9A3A9B8D1FBA92F9009CF2AF /* cellMainTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cellMainTable.m; sourceTree = "<group>"; };
+		9A3A9B8E1FBA92F9009CF2AF /* cellMainTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cellMainTable.xib; sourceTree = "<group>"; };
+		9A3A9B921FBA971A009CF2AF /* zapAzul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zapAzul.jpg; sourceTree = "<group>"; };
+		9A3A9B931FBA971A009CF2AF /* zapblanco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zapblanco.jpg; sourceTree = "<group>"; };
+		9A3A9B941FBA971A009CF2AF /* zapdorado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zapdorado.jpg; sourceTree = "<group>"; };
+		9A3A9B951FBA971A009CF2AF /* zapExcentrico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zapExcentrico.jpg; sourceTree = "<group>"; };
+		9A3A9B961FBA971A009CF2AF /* zapNegro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zapNegro.jpg; sourceTree = "<group>"; };
+		9A3A9B971FBA971A009CF2AF /* zapRojo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zapRojo.jpg; sourceTree = "<group>"; };
+		9A3A9B981FBA971A009CF2AF /* zapRosa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zapRosa.jpg; sourceTree = "<group>"; };
+		9A3A9B991FBA971A009CF2AF /* ZapRosaBlanco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ZapRosaBlanco.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +81,8 @@
 		9A3A9B6E1FBA8C5E009CF2AF /* otraTabla */ = {
 			isa = PBXGroup;
 			children = (
+				9A3A9B911FBA971A009CF2AF /* imgShoes */,
+				9A3A9B8B1FBA9208009CF2AF /* Cells */,
 				9A3A9B8A1FBA8C9A009CF2AF /* Main */,
 				9A3A9B891FBA8C92009CF2AF /* Controllers */,
 				9A3A9B751FBA8C5E009CF2AF /* Main.storyboard */,
@@ -88,6 +111,32 @@
 				9A3A9B701FBA8C5E009CF2AF /* AppDelegate.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		9A3A9B8B1FBA9208009CF2AF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A9B8C1FBA92F9009CF2AF /* cellMainTable.h */,
+				9A3A9B8D1FBA92F9009CF2AF /* cellMainTable.m */,
+				9A3A9B8E1FBA92F9009CF2AF /* cellMainTable.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9A3A9B911FBA971A009CF2AF /* imgShoes */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A9B921FBA971A009CF2AF /* zapAzul.jpg */,
+				9A3A9B931FBA971A009CF2AF /* zapblanco.jpg */,
+				9A3A9B941FBA971A009CF2AF /* zapdorado.jpg */,
+				9A3A9B951FBA971A009CF2AF /* zapExcentrico.jpg */,
+				9A3A9B961FBA971A009CF2AF /* zapNegro.jpg */,
+				9A3A9B971FBA971A009CF2AF /* zapRojo.jpg */,
+				9A3A9B981FBA971A009CF2AF /* zapRosa.jpg */,
+				9A3A9B991FBA971A009CF2AF /* ZapRosaBlanco.jpg */,
+			);
+			name = imgShoes;
+			path = ../../../imgShoes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +198,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A3A9B7F1FBA8C5E009CF2AF /* LaunchScreen.storyboard in Resources */,
+				9A3A9B9A1FBA971A009CF2AF /* zapAzul.jpg in Resources */,
+				9A3A9B9B1FBA971A009CF2AF /* zapblanco.jpg in Resources */,
+				9A3A9BA01FBA971A009CF2AF /* zapRosa.jpg in Resources */,
 				9A3A9B7C1FBA8C5E009CF2AF /* Assets.xcassets in Resources */,
+				9A3A9B9E1FBA971A009CF2AF /* zapNegro.jpg in Resources */,
+				9A3A9B9C1FBA971A009CF2AF /* zapdorado.jpg in Resources */,
 				9A3A9B771FBA8C5E009CF2AF /* Main.storyboard in Resources */,
+				9A3A9B9F1FBA971A009CF2AF /* zapRojo.jpg in Resources */,
+				9A3A9B901FBA92F9009CF2AF /* cellMainTable.xib in Resources */,
+				9A3A9B9D1FBA971A009CF2AF /* zapExcentrico.jpg in Resources */,
+				9A3A9BA11FBA971A009CF2AF /* ZapRosaBlanco.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +222,7 @@
 				9A3A9B7A1FBA8C5E009CF2AF /* otraTabla.xcdatamodeld in Sources */,
 				9A3A9B741FBA8C5E009CF2AF /* Home.m in Sources */,
 				9A3A9B821FBA8C5E009CF2AF /* main.m in Sources */,
+				9A3A9B8F1FBA92F9009CF2AF /* cellMainTable.m in Sources */,
 				9A3A9B711FBA8C5E009CF2AF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

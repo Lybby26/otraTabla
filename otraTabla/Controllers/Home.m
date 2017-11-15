@@ -8,9 +8,12 @@
 
 #import "Home.h"
 #import "cellMainTable.h"
+#import "ViewDetails.h"
 @interface Home ()
 @property NSMutableArray *imgZapato;
 @property NSMutableArray *modZapato;
+@property NSString *modZap;
+@property NSString *imgZap;
 @end
 
 @implementation Home
@@ -45,6 +48,7 @@
 //-------------------------------------------------------------------------------
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.modZapato.count;
+    
 }
 //-------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -67,6 +71,19 @@
 }
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    //Pending
+    NSLog(@"Value of row = %ld", (long)indexPath.row);
+    self.modZap= self.modZapato[indexPath.row];
+    self.imgZap= self.imgZapato[indexPath.row];
+    [self performSegueWithIdentifier:@"dataZapato" sender:self];
 }
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"dataZapato"]) {
+        ViewDetails *viewController = segue.destinationViewController;
+        //Your current selected cell path is stored in selectedRow if you have save value in any Array you can fetch it like this...
+        viewController.segZapModelo = _modZap;
+        viewController.segZapImagen = _imgZap;
+    }
+
+}
+
 @end

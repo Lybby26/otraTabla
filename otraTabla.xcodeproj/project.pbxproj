@@ -24,6 +24,7 @@
 		9A3A9B9F1FBA971A009CF2AF /* zapRojo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B971FBA971A009CF2AF /* zapRojo.jpg */; };
 		9A3A9BA01FBA971A009CF2AF /* zapRosa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B981FBA971A009CF2AF /* zapRosa.jpg */; };
 		9A3A9BA11FBA971A009CF2AF /* ZapRosaBlanco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B991FBA971A009CF2AF /* ZapRosaBlanco.jpg */; };
+		9A6E67A81FBBEF340025C711 /* ViewDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E67A71FBBEF340025C711 /* ViewDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		9A3A9B971FBA971A009CF2AF /* zapRojo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zapRojo.jpg; sourceTree = "<group>"; };
 		9A3A9B981FBA971A009CF2AF /* zapRosa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zapRosa.jpg; sourceTree = "<group>"; };
 		9A3A9B991FBA971A009CF2AF /* ZapRosaBlanco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ZapRosaBlanco.jpg; sourceTree = "<group>"; };
+		9A6E67A61FBBEF340025C711 /* ViewDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDetails.h; sourceTree = "<group>"; };
+		9A6E67A71FBBEF340025C711 /* ViewDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 			children = (
 				9A3A9B721FBA8C5E009CF2AF /* Home.h */,
 				9A3A9B731FBA8C5E009CF2AF /* Home.m */,
+				9A6E67A61FBBEF340025C711 /* ViewDetails.h */,
+				9A6E67A71FBBEF340025C711 /* ViewDetails.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A3A9B7A1FBA8C5E009CF2AF /* otraTabla.xcdatamodeld in Sources */,
+				9A6E67A81FBBEF340025C711 /* ViewDetails.m in Sources */,
 				9A3A9B741FBA8C5E009CF2AF /* Home.m in Sources */,
 				9A3A9B821FBA8C5E009CF2AF /* main.m in Sources */,
 				9A3A9B8F1FBA92F9009CF2AF /* cellMainTable.m in Sources */,

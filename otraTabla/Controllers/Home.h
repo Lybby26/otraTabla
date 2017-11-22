@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface Home : UIViewController
+@import GoogleSignIn;
+@interface Home : UIViewController<GIDSignInUIDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tblmain;
 
 

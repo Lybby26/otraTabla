@@ -7,7 +7,7 @@
 //
 
 #import "ViewDetails.h"
-
+@import Firebase;
 @interface ViewDetails ()
 
 @end
@@ -30,6 +30,9 @@
     self.lblModelo.text = [NSString stringWithFormat:@"Modelo %@", modelo];
     self.imgModelo.image  = [UIImage imageNamed:imagenZap];
 }
+
+
+
 /*
 #pragma mark - Navigation
 
@@ -40,4 +43,10 @@
 }
 */
 
+- (IBAction)btnBuyPressed:(id)sender {
+    [FIRAnalytics logEventWithName:@"COMPRAR" parameters:@{
+                                                           @"name":@"btnComprar",
+                                                           @"full_text":@"Zapatos"
+                                                           }];
+}
 @end

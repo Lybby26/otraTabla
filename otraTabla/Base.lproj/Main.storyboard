@@ -78,12 +78,16 @@
                                 <color key="backgroundColor" red="0.89745360612869263" green="0.63992148637771606" blue="0.92492538690567017" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="35"/>
                                 <state key="normal" title="COMPRAR"/>
+                                <connections>
+                                    <action selector="btnBuyPressed:" destination="IYN-EC-KzN" eventType="touchUpInside" id="XGb-sB-hZV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="aWh-w7-yDv"/>
                     <connections>
+                        <outlet property="btnComprar" destination="KFv-QD-A9N" id="JGx-td-78y"/>
                         <outlet property="imgModelo" destination="PR2-Ni-c8M" id="OtP-8A-U6s"/>
                         <outlet property="lblModelo" destination="JiA-pq-lbB" id="tSp-ua-K2P"/>
                     </connections>

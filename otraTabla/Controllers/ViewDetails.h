@@ -11,7 +11,10 @@
 @interface ViewDetails : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *lblModelo;
 @property (strong, nonatomic) IBOutlet UIImageView *imgModelo;
+@property (strong, nonatomic) IBOutlet UIButton *btnComprar;
 
 @property NSString *segZapModelo;
 @property NSString *segZapImagen;
+
+- (IBAction)btnBuyPressed:(id)sender;
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B9D8FBE13D08FEE242F39FE /* libPods-otraTabla.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B22F2B8B78AF9C3EA9A9428 /* libPods-otraTabla.a */; };
 		9A3A9B711FBA8C5E009CF2AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A9B701FBA8C5E009CF2AF /* AppDelegate.m */; };
 		9A3A9B741FBA8C5E009CF2AF /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A9B731FBA8C5E009CF2AF /* Home.m */; };
 		9A3A9B771FBA8C5E009CF2AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B751FBA8C5E009CF2AF /* Main.storyboard */; };
@@ -25,9 +26,12 @@
 		9A3A9BA01FBA971A009CF2AF /* zapRosa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B981FBA971A009CF2AF /* zapRosa.jpg */; };
 		9A3A9BA11FBA971A009CF2AF /* ZapRosaBlanco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A9B991FBA971A009CF2AF /* ZapRosaBlanco.jpg */; };
 		9A6E67A81FBBEF340025C711 /* ViewDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E67A71FBBEF340025C711 /* ViewDetails.m */; };
+		9AB8812D1FC52CFB008A2721 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9AB8812C1FC52CFB008A2721 /* Podfile */; };
+		9AB8812F1FC531F2008A2721 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9AB8812E1FC531EF008A2721 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B22F2B8B78AF9C3EA9A9428 /* libPods-otraTabla.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-otraTabla.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3A9B6C1FBA8C5E009CF2AF /* otraTabla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otraTabla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3A9B6F1FBA8C5E009CF2AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A3A9B701FBA8C5E009CF2AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +56,10 @@
 		9A3A9B991FBA971A009CF2AF /* ZapRosaBlanco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ZapRosaBlanco.jpg; sourceTree = "<group>"; };
 		9A6E67A61FBBEF340025C711 /* ViewDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDetails.h; sourceTree = "<group>"; };
 		9A6E67A71FBBEF340025C711 /* ViewDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewDetails.m; sourceTree = "<group>"; };
+		9AB8812C1FC52CFB008A2721 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		9AB8812E1FC531EF008A2721 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E66CEF233E4E618E347FF598 /* Pods-otraTabla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otraTabla.release.xcconfig"; path = "Pods/Target Support Files/Pods-otraTabla/Pods-otraTabla.release.xcconfig"; sourceTree = "<group>"; };
+		F21F9CD24F075E2AABC63DC4 /* Pods-otraTabla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-otraTabla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-otraTabla/Pods-otraTabla.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B9D8FBE13D08FEE242F39FE /* libPods-otraTabla.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,8 +77,11 @@
 		9A3A9B631FBA8C5E009CF2AF = {
 			isa = PBXGroup;
 			children = (
+				9AB8812C1FC52CFB008A2721 /* Podfile */,
 				9A3A9B6E1FBA8C5E009CF2AF /* otraTabla */,
 				9A3A9B6D1FBA8C5E009CF2AF /* Products */,
+				9AB38C765570CAB3D196960E /* Pods */,
+				DABB448F3ED7AE1ECC1DF202 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +104,7 @@
 				9A3A9B7B1FBA8C5E009CF2AF /* Assets.xcassets */,
 				9A3A9B7D1FBA8C5E009CF2AF /* LaunchScreen.storyboard */,
 				9A3A9B801FBA8C5E009CF2AF /* Info.plist */,
+				9AB8812E1FC531EF008A2721 /* GoogleService-Info.plist */,
 				9A3A9B811FBA8C5E009CF2AF /* main.m */,
 				9A3A9B781FBA8C5E009CF2AF /* otraTabla.xcdatamodeld */,
 			);
@@ -144,6 +157,23 @@
 			path = ../../../imgShoes;
 			sourceTree = "<group>";
 		};
+		9AB38C765570CAB3D196960E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F21F9CD24F075E2AABC63DC4 /* Pods-otraTabla.debug.xcconfig */,
+				E66CEF233E4E618E347FF598 /* Pods-otraTabla.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DABB448F3ED7AE1ECC1DF202 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B22F2B8B78AF9C3EA9A9428 /* libPods-otraTabla.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A3A9B851FBA8C5E009CF2AF /* Build configuration list for PBXNativeTarget "otraTabla" */;
 			buildPhases = (
+				53190A1D860232B1AB5B6A9A /* [CP] Check Pods Manifest.lock */,
 				9A3A9B681FBA8C5E009CF2AF /* Sources */,
 				9A3A9B691FBA8C5E009CF2AF /* Frameworks */,
 				9A3A9B6A1FBA8C5E009CF2AF /* Resources */,
+				F8D482B1F304D47923D86264 /* [CP] Embed Pods Frameworks */,
+				87693C2518480882BD07D72D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,13 +244,70 @@
 				9A3A9B9C1FBA971A009CF2AF /* zapdorado.jpg in Resources */,
 				9A3A9B771FBA8C5E009CF2AF /* Main.storyboard in Resources */,
 				9A3A9B9F1FBA971A009CF2AF /* zapRojo.jpg in Resources */,
+				9AB8812D1FC52CFB008A2721 /* Podfile in Resources */,
 				9A3A9B901FBA92F9009CF2AF /* cellMainTable.xib in Resources */,
 				9A3A9B9D1FBA971A009CF2AF /* zapExcentrico.jpg in Resources */,
 				9A3A9BA11FBA971A009CF2AF /* ZapRosaBlanco.jpg in Resources */,
+				9AB8812F1FC531F2008A2721 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53190A1D860232B1AB5B6A9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-otraTabla-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87693C2518480882BD07D72D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-otraTabla/Pods-otraTabla-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-otraTabla/Pods-otraTabla-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8D482B1F304D47923D86264 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-otraTabla/Pods-otraTabla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A3A9B681FBA8C5E009CF2AF /* Sources */ = {
@@ -361,6 +451,7 @@
 		};
 		9A3A9B861FBA8C5E009CF2AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F21F9CD24F075E2AABC63DC4 /* Pods-otraTabla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -374,6 +465,7 @@
 		};
 		9A3A9B871FBA8C5E009CF2AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E66CEF233E4E618E347FF598 /* Pods-otraTabla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
